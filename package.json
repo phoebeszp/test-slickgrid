@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sap/orca-react-ui": "1.201903.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "6.26.0",
+    "css-loader": "0.28.7",
+    "moment": "2.22.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.2",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +34,34 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/acorn": "4.0.3",
+    "@types/astring": "1.3.0",
+    "@types/codemirror": "0.0.68",
+    "@types/d3": "5.0.0",
+    "@types/enzyme": "3.1.7",
+    "@types/enzyme-adapter-react-16": "1.0.3",
+    "@types/estree": "0.0.38",
+    "@types/jasmine": "2.8.2",
+    "@types/jasmine-enzyme": "3.6.2",
+    "@types/jest": "23.3.1",
+    "@types/jss": "9.3.0",
+    "@types/react": "16.4.2",
+    "@types/react-dom": "16.0.7",
+    "@types/react-test-renderer": "16.0.0",
+    "@types/tinymce": "4.5.16",
+    "@types/webpack-env": "1.13.6",
+    "@types/xml2js": "0.4.3",
+    "chai": "4.1.2",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.7.0",
+    "factory.ts": "0.2.2",
+    "jasmine-enzyme": "4.0.2",
+    "jest-enzyme": "4.0.2",
+    "react-test-renderer": "16.2.0",
+    "redux-undo": "0.6.1",
+    "reselect": "3.0.1",
+    "typemoq": "2.1.0"
+  }
 }
